@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="Themes/Main1.css">
+</head>
+<body>
+    <!-- Login Screen-->
+     <div id="LoginDiv">
+        <p>Users</p>
+        <hr>
+        <div id="UsersDiv">
+            <div id="AddUserDiv">
+                <form autocomplete="off">
+                    <label for="UserAddName" id="UserAddNameLabel">Add a user:</label>
+                    <input type="text" id="UserAddName" placeholder="シ VeryCoolName　シ">
+                    <input type="password" id="UserAddPassword" placeholder="Very Hard Password To Guess" minlength="3">
+                    <button id="UserAddButton" type="button">Create Account</button>
+                </form>
+            </div>
+            <div id="UserListDiv">
+            </div>
+        </div>
+     </div>
+
+    <script src="Main.js"></script>
+</body>
+</html>
